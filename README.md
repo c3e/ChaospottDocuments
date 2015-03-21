@@ -1,3 +1,3 @@
 # ChaospottDocuments
 
-Chaospott legal documents generator.
+Chaospott legal documents + stuff generator.
