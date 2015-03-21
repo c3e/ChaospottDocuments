@@ -5,7 +5,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[margin=2.5cm]{geometry}
 \renewcommand{\familydefault}{\sfdefault}
-\ULCornerWallPaper{1}{pdf/Briefpapier.pdf}
+\ULCornerWallPaper{1}{pdf/briefpapier.pdf}
 \pagestyle{empty}
 \begin{document}
 \begin{Form}
