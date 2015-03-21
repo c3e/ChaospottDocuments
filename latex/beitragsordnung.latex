@@ -1,0 +1,20 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx,wallpaper,fullpage,enumitem}
+\renewcommand{\familydefault}{\sfdefault}
+\ULCornerWallPaper{1}{pdf/Briefpapier.pdf}
+\pagestyle{empty}
+\begin{document}
+\textsc{\huge Beitragsordnung des foobar e. V.}\\[0.5cm]
+\begin{enumerate}[label=\bfseries §\arabic*]
+  \item \textbf{Beitrag}
+    \begin{enumerate}[label=\bfseries (\arabic*)] 
+      \item Der Verein erhebt für ordentliche Mitglieder einen regulären, monatlichen Mitgliedsbeitrag von Zwanzig Euro.\\ Der ermäßigte Beitrag beträgt Zehn Euro monatlich.
+      \item Der Beitrag für Fördermitglieder beträgt Fünf Euro monatlich.
+      \item Der Beitrag kann monatlich, quartalsweise, halbjährlich, oder jährlich entrichtet werden. Er ist jeweils im Voraus fällig.\\ Entrichtete Beiträgen werden nicht erstattet.
+      \item Jedem Mitglied steht es frei freiwillig einen höheren Beitrag zu zahlen.\\ Hierüber ist der Schatzmeister zeitnah in Kenntnis zu setzen.
+    \end{enumerate}
+\end{enumerate}
+\end{document}
