@@ -48,7 +48,7 @@ Um dich besser im Chaos einzufinden sollen dir folgende Informationen helfen:
 \item storage.chaospott.de ist ein gemeinsamer storage für \$DINGE. Zugriff darauf bekommst du indem du eine signierte E-Mail an noc@chaospott.de mit deinem Pubkey anfragst. Danach werden dir Zugangsdaten zugesendet, mit denen du dich via ssh oder smb einloggen kannst. 
     \begin{itemize}
       \item smb://storage.chaospott.de (Linux:thunar, nautilus, nemo)
-      \item \textbackslash\textbackslash storage.chaospott.de (Windows)asd
+      \item \textbackslash\textbackslash storage.chaospott.de (Windows)
     \end{itemize}
 \item Wenn du einen größeren Betrag für Getränke in die Kasse spendest und du den Überblick behalten möchtest, kannst du dir einen Account auf dem Mete-Tablet (liegt direkt neben der Kasse) anlegen.
 \item Die Leute haben mehr Angst vor dir als du vor ihnen! Einfach anquatschen bricht das Eis recht schnell!
