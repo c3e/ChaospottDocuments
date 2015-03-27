@@ -1,0 +1,7 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx,wallpaper,fullpage,enumitem}
+\renewcommand{\familydefault}{\sfdefault}
+\ULCornerWallPaper{1}{pdf/briefpapier.pdf}

@@ -1,57 +1,52 @@
-\documentclass[10pt,a4paper]{report}
-\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[hidelinks]{hyperref}
-\usepackage{graphicx,wallpaper,fullpage}
-\renewcommand{\familydefault}{\sfdefault}
-\ULCornerWallPaper{1}{pdf/briefpapier.pdf}
+\input{latex/preamble.latex}
+
 \pagestyle{empty}
 \begin{document}
-\textsc{\huge Newbie Howto}\\[0.5cm]
-Hallo!
-\newline
-Um dich besser im Chaos einzufinden sollen dir folgende Informationen helfen:
-\begin{enumerate}
-  \item Zualler erst:
-    \begin{itemize}
-      \item Hackerethik lesen! \url{http://www.ccc.de/de/hackerethik}
-    \end{itemize}
-\item Die meisten Info bekommst du in der Wiki: 
-    \begin{itemize}
-      \item \url{https://wiki.chaospott.de}
-    \end{itemize}
-\item Melde dich auf der Mailingliste an! Dort gibt es wichtige Meldungen und du kannst jederzeit dort fragen wenn du Hilfe brauchst. Ein Blick auf die Netiquette ist dabei auch nicht verkehrt :). Infos dazu gibt es hier:
-    \begin{itemize}
-      \item \url{https://wiki.chaospott.de/Mailingliste}
-    \end{itemize}
-\item Mails an die Vereinsmitglieder sollten verschlüsselt werden. Lege dir dazu einen PGP-Key an und veröffentliche ihn. Anleitungen und Hilfe dazu kannst Du jederzeit von anderen Mitgliedern erhalten.
+	\textsc{\huge Newbie Howto}\\[0.5cm]
+	Hallo!
+	\newline
+	Um dich besser im Chaos einzufinden sollen dir folgende Informationen helfen:
+	\begin{enumerate}
+	\item Zualler erst:
+		\begin{itemize}
+		  \item Hackerethik lesen! \url{http://www.ccc.de/de/hackerethik}
+		\end{itemize}
+	\item Die meisten Info bekommst du in der Wiki: 
+		\begin{itemize}
+		  \item \url{https://wiki.chaospott.de}
+		\end{itemize}
+	\item Melde dich auf der Mailingliste an! Dort gibt es wichtige Meldungen und du kannst jederzeit dort fragen wenn du Hilfe brauchst. Ein Blick auf die Netiquette ist dabei auch nicht verkehrt :). Infos dazu gibt es hier:
+		\begin{itemize}
+		  \item \url{https://wiki.chaospott.de/Mailingliste}
+		\end{itemize}
+	\item Mails an die Vereinsmitglieder sollten verschlüsselt werden. Lege dir dazu einen PGP-Key an und veröffentliche ihn. Anleitungen und Hilfe dazu kannst Du jederzeit von anderen Mitgliedern erhalten.
 
-\item Wenn du Zugang zu den Clubräumen möchtest, musst Du einen SSH Key erstellen und ihn, signiert, an den Vorstand (info@chaospott.de) senden. Eine Anleitung um einen SSH Key zu erstellen findest Du hier: 
-    \begin{itemize}
-      \item \url{https://wiki.chaospott.de/Zugang}
-    \end{itemize}
-\item Wir verwenden Pads, diese ermöglichen uns kollaborativ an Projekten zu arbeiten. Du findest sie hier:
-    \begin{itemize}
-      \item \url{http://pads.chaospott.de}
-    \end{itemize}
-\item Wenn dir die Musik nicht gefällt kannst du die Musik wie folgt Steuern:
-    \begin{itemize}
-      \item Auf der Adresse mpd.chaospott.de läuft ein mpd.
-      \item Clients dafür sind für alle bekannten Betriebssysteme vorhanden.
-      \item Der mpd ist alternativ auch über mpd.local (dank Avahi) erreichbar.
-      \item Die Musik liegt auf storage.chaospott.de (siehe unten).
-    \end{itemize}
-\item Infos zum 3D-Drucker gibts hier: 
-    \begin{itemize}
-      \item \url{https://wiki.chaospott.de/3D-Drucker}
-    \end{itemize}
-\item storage.chaospott.de ist ein gemeinsamer storage für \$DINGE. Zugriff darauf bekommst du indem du eine signierte E-Mail an noc@chaospott.de mit deinem Pubkey anfragst. Danach werden dir Zugangsdaten zugesendet, mit denen du dich via ssh oder smb einloggen kannst. 
-    \begin{itemize}
-      \item smb://storage.chaospott.de (Linux:thunar, nautilus, nemo)
-      \item \textbackslash\textbackslash storage.chaospott.de (Windows)
-    \end{itemize}
-\item Wenn du einen größeren Betrag für Getränke in die Kasse spendest und du den Überblick behalten möchtest, kannst du dir einen Account auf dem Mete-Tablet (liegt direkt neben der Kasse) anlegen.
-\item Die Leute haben mehr Angst vor dir als du vor ihnen! Einfach anquatschen bricht das Eis recht schnell!
-\item Beteilige dich! Durch Deine Beteiligung steigt auch dein positives Erlebnis und das der anderen im gleichen Maße!
-\end{enumerate}
+	\item Wenn du Zugang zu den Clubräumen möchtest, musst Du einen SSH Key erstellen und ihn, signiert, an den Vorstand (info@chaospott.de) senden. Eine Anleitung um einen SSH Key zu erstellen findest Du hier: 
+		\begin{itemize}
+		  \item \url{https://wiki.chaospott.de/Zugang}
+		\end{itemize}
+	\item Wir verwenden Pads, diese ermöglichen uns kollaborativ an Projekten zu arbeiten. Du findest sie hier:
+		\begin{itemize}
+		  \item \url{http://pads.chaospott.de}
+		\end{itemize}
+	\item Wenn dir die Musik nicht gefällt kannst du die Musik wie folgt Steuern:
+		\begin{itemize}
+		  \item Auf der Adresse mpd.chaospott.de läuft ein mpd.
+		  \item Clients dafür sind für alle bekannten Betriebssysteme vorhanden.
+		  \item Der mpd ist alternativ auch über mpd.local (dank Avahi) erreichbar.
+		  \item Die Musik liegt auf storage.chaospott.de (siehe unten).
+		\end{itemize}
+	\item Infos zum 3D-Drucker gibts hier: 
+		\begin{itemize}
+		  \item \url{https://wiki.chaospott.de/3D-Drucker}
+		\end{itemize}
+	\item storage.chaospott.de ist ein gemeinsamer storage für \$DINGE. Zugriff darauf bekommst du indem du eine signierte E-Mail an noc@chaospott.de mit deinem Pubkey anfragst. Danach werden dir Zugangsdaten zugesendet, mit denen du dich via ssh oder smb einloggen kannst. 
+		\begin{itemize}
+		  \item smb://storage.chaospott.de (Linux:thunar, nautilus, nemo)
+		  \item \textbackslash\textbackslash storage.chaospott.de (Windows)
+		\end{itemize}
+	\item Wenn du einen größeren Betrag für Getränke in die Kasse spendest und du den Überblick behalten möchtest, kannst du dir einen Account auf dem Mete-Tablet (liegt direkt neben der Kasse) anlegen.
+	\item Die Leute haben mehr Angst vor dir als du vor ihnen! Einfach anquatschen bricht das Eis recht schnell!
+	\item Beteilige dich! Durch Deine Beteiligung steigt auch dein positives Erlebnis und das der anderen im gleichen Maße!
+	\end{enumerate}
 \end{document}

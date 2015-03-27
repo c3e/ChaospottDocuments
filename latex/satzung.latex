@@ -1,10 +1,5 @@
-\documentclass[10pt,a4paper]{report}
-\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[hidelinks]{hyperref}
-\usepackage{graphicx,wallpaper,fullpage,enumitem}
-\renewcommand{\familydefault}{\sfdefault}
-\ULCornerWallPaper{1}{pdf/briefpapier.pdf}
+\input{latex/preamble.latex}
+
 \pagestyle{empty}
 \begin{document}
 \textsc{\huge Satzung des foobar e.V.}\\[0.5cm]
