@@ -1,6 +1,7 @@
-\documentclass[10pt,a4paper]{report}
+\documentclass[10pt,a4paper]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx,wallpaper,fullpage,enumitem,changepage}
 \renewcommand{\familydefault}{\sfdefault}
