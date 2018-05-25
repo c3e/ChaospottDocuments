@@ -10,32 +10,37 @@
 \TextField[width=10cm,bordercolor=black]{Straße, Hausnummer\hfill}\\[3mm]
 \TextField[width=10cm,bordercolor=black]{Postleitzahl, Ort\hfill}\\[3mm]
 \TextField[width=10cm,bordercolor=black]{E-Mail\hfill}\\[3mm]
-\TextField[width=10cm,bordercolor=black]{Mitgliedsnummer (falls vorhanden)\hfill}\\[3mm]
+\TextField[width=10cm,bordercolor=black]{Mitgliedsnummer (falls vorhanden)\hfill}
 
 \section*{Mitgliedschaft}
 \CheckBox[name=1,bordercolor=black]{} Hiermit beantrage ich die Fördermitgliedschaft im Verein foobar e. V..\\[1mm]
 \CheckBox[name=2,bordercolor=black]{} Ich bin Fördermitglied des foobar e. V. und möchte meine Daten ändern.\\[1mm]
-\CheckBox[name=3,bordercolor=black]{} Ich bin damit einverstanden, ausschließlich per E-Mail kontaktiert zu werden.\\[1mm]
+\CheckBox[name=3,bordercolor=black]{} Ich bin damit einverstanden, ausschließlich per E-Mail kontaktiert zu werden.
 
 \section*{Ich bezahle einen monatlichen Beitrag von}
-\CheckBox[name=4,bordercolor=black]{} 5 Euro.
-\tab{\CheckBox[name=5,bordercolor=black]{} \noindent\rule{5cm}{0.4pt}}\\[3mm]
+\CheckBox[name=4,bordercolor=black]{} 5 Euro\qquad
+\CheckBox[name=5,bordercolor=black]{} \noindent\rule{30mm}{0.4pt}
 
 \section*{Meinen Beitrag zahle ich per Überweisung/Dauerauftrag}
-\CheckBox[name=6,bordercolor=black]{} monatlich.
-\tab{\CheckBox[name=7,bordercolor=black]{} halbjährlich.}\\[3mm]
-\CheckBox[name=8,bordercolor=black]{} pro Quartal.
-\tab{\CheckBox[name=9,bordercolor=black]{} jährlich.}\\
+\CheckBox[name=6,bordercolor=black]{} monatlich\qquad
+\CheckBox[name=7,bordercolor=black]{} pro Quartal\qquad
+\CheckBox[name=8,bordercolor=black]{} halbjährlich\qquad
+\CheckBox[name=9,bordercolor=black]{} jährlich
 
-\section*{Satzung}
-Satzung: \url{http://chaospott.de/files/satzung.pdf}\\
-Beitragsordnung: \url{http://chaospott.de/files/beitragsordnung.pdf}\\[3mm]
-\CheckBox[name=10,bordercolor=black]{} Ich habe die Satzung und die Beitragsordnung gelesen und erkenne diese an.\\[1.2cm]
+\section*{Satzung und Datenschutzerklärung}
+\begin{tabular}{@{}l@{\enskip}l@{}}
+Satzung:              & \url{http://chaospott.de/files/satzung.pdf}\\
+Beitragsordnung:      & \url{http://chaospott.de/files/beitragsordnung.pdf}\\
+Datenschutzerklärung: & \url{http://chaospott.de/files/datenschutzerklaerung.pdf}
+\end{tabular}\\[3mm]
+\CheckBox[name=10,bordercolor=black]{} Ich habe die Satzung und die Beitragsordnung gelesen und erkenne diese an.\\[3mm]
+\CheckBox[name=11,bordercolor=black]{} Ich habe die Datenschutzerklärung zur Kenntnis genommen.\\[1.2cm]
 
+\noindent
+\begin{tabular}{@{}l@{\enskip}l@{}}
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt}}\\
+Ort, Datum        & Unterschrift
+\end{tabular}
 
-\noindent\rule{6cm}{0.4pt}
-\tab{\noindent\rule{6cm}{0.4pt}}\\
-Ort, Datum
-\tab{Unterschrift}
 \end{Form}
 \end{document}
