@@ -16,6 +16,7 @@ jobs:
           mv /tmp/docker/* /usr/bin
 
     - run: echo ${DOCKER_USER}
+    - run: docker --version
     - run: docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
     - run: docker build -t chaospott/documents .
     - run: |
