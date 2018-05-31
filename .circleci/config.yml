@@ -3,6 +3,7 @@ jobs:
  build:
    machine: true
    steps:
+     - setup_remote_docker
      - checkout
      - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
      - run: docker build -t chaospott/documents .
