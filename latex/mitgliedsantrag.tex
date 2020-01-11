@@ -1,10 +1,16 @@
-\input{latex/preamble.tex}
+\input{preamble.tex}
 
 \pagestyle{empty}
 \begin{document}
 
 \begin{Form}
-\noindent\textbf{\Huge Antrag auf Mitgliedschaft}\\
+	\begin{flushright}
+		\TextField[width=4cm,bordercolor=black]{Mitgliedsnummer}\\[3mm]
+		\TextField[width=4cm,bordercolor=black]{Bearbeitet am}\\[3mm]
+	\end{flushright}
+	\vspace{0.7cm}
+
+\noindent\textbf{\Huge Antrag auf Mitgliedschaft}
 \section*{Kontaktdaten}
 \TextField[width=10cm,bordercolor=black]{Name\hfill}\\[3mm]
 \TextField[width=10cm,bordercolor=black]{Straße, Hausnummer\hfill}\\[3mm]
@@ -36,11 +42,11 @@ Beitragsordnung:      & \url{https://documents.chaospott.de/beitragsordnung.pdf}
 Datenschutzerklärung: & \url{https://documents.chaospott.de/datenschutzerklaerung.pdf}
 \end{tabular}\\[3mm]
 \CheckBox[name=12,bordercolor=black]{} Ich habe die Satzung und die Beitragsordnung gelesen und erkenne diese an.\\[3mm]
-\CheckBox[name=13,bordercolor=black]{} Ich habe die Datenschutzerklärung zur Kenntnis genommen.\\[1.2cm]
+\CheckBox[name=13,bordercolor=black]{} Ich habe die Datenschutzerklärung zur Kenntnis genommen.\\[1cm]
 
 \noindent
 \begin{tabular}{@{}l@{\enskip}l@{}}
-\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt}}\\
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt}\\
 Ort, Datum        & Unterschrift
 \end{tabular}
 
