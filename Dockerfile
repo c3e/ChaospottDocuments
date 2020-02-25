@@ -3,7 +3,7 @@ FROM debian as builder
 RUN apt-get update -y
 RUN apt-get install -y texlive texlive-lang-german texlive-latex-extra
 
-ADD pdf /output/pdf
+ADD pdf /documents/pdf
 ADD latex /documents/latex
 WORKDIR /documents/latex
 
