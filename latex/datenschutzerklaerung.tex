@@ -1,32 +1,21 @@
-\documentclass{article}
+\documentclass[10pt,a4paper]{scrartcl}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
-\usepackage{hyperref}
-\usepackage[%
-    a4paper,%
-    bindingoffset=5mm,%
-    left=15mm,%
-    right=15mm,%
-    top=15mm,%
-    bottom=25mm,%
-    footskip=6mm]{geometry}
-
-\usepackage{titlesec}
-\titleformat*{\section}{\large\bfseries}
-\titleformat*{\subsection}{\bfseries}
-\titleformat*{\subsubsection}{\scshape}
-
-\setlength{\parindent}{0pt}
-
-
-\title{Datenschutzerklärung gemäß DSGVO Art.~13\\
-    für die Mitgliederverwaltung des foobar~e.V.}
-\date{Stand 2022-02-08}
+\usepackage[hidelinks]{hyperref}
+\usepackage[top=30mm, bottom=45mm, left=35mm, right=35mm]{geometry}
+\usepackage{enumitem}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\thesection}{§\arabic{section}}
 
 \begin{document}
-\maketitle
+	\noindent
+	{\huge\bfseries Datenschutzerklärung gemäß DSGVO Art.~13\\
+		für die Mitgliederverwaltung des foobar~e.V.}\\[0.5cm]
+	Stand: 8.2.2022
+\vspace{1cm}
 
-Wir erheben auf dem Mitgliedsantrag persönliche Daten.
+\noindent Wir erheben auf dem Mitgliedsantrag persönliche Daten.
 Gemäß Datenschutzgrundverordnung~(DSGVO) Artikel~13 geben wir dazu die
 folgende Datenschutzerklärung ab:
 
